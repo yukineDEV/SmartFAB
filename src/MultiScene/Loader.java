@@ -9,8 +9,8 @@ public class Loader extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("./Scene/POS/POSScene.fxml"));
-        // Parent root = FXMLLoader.load(getClass().getResource("../Login/signin/FXMLLogin.fxml"));
+        // Parent root = FXMLLoader.load(getClass().getResource("./Scene/POS/POSScene.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("../Login/signin/FXMLLogin.fxml"));
 
         primaryStage.setTitle("SmartFAB");
         primaryStage.setScene(new Scene(root));
