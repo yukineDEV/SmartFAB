@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="645.0" prefWidth="1210.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="645.0" prefWidth="1210.0">
+         <top>
+            <HBox prefHeight="76.0" prefWidth="1210.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="74.0" prefWidth="302.5" style="-fx-background-color: transparent; -fx-background-color: #588ce3;" text="Daftar">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="76.0" prefWidth="302.5" style="-fx-background-color: transparent;" text="Add Product">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="76.0" prefWidth="302.5" style="-fx-background-color: transparent;" text="Favorit">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="76.0" prefWidth="302.5" style="-fx-background-color: transparent;" text="Stok Habis">
+                     <font>
+                        <Font name="Cambria" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </top>
+         <center>
+            <AnchorPane prefHeight="556.0" prefWidth="1210.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox alignment="CENTER" layoutX="-13.0" layoutY="2.0" prefHeight="36.0" prefWidth="1196.0">
+                     <children>
+                        <TextField prefHeight="20.0" prefWidth="1098.0" promptText="Cari Produk" style="-fx-background-radius: 15;" />
+                     </children>
+                  </HBox>
+                  <AnchorPane layoutX="14.0" layoutY="38.0" prefHeight="531.0" prefWidth="438.0">
+                     <children>
+                        <VBox prefHeight="509.0" prefWidth="437.0">
+                           <children>
+                              <HBox prefHeight="39.0" prefWidth="447.0" style="-fx-border-color: #808080;">
+                                 <children>
+                                    <TextField prefHeight="41.0" prefWidth="179.0" style="-fx-background-color: transparent;" text="Semua                                    ">
+                                       <font>
+                                          <Font name="Cambria" size="12.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField prefHeight="41.0" prefWidth="179.0" style="-fx-background-color: transparent;" text="(109)">
+                                       <font>
+                                          <Font name="Cambria" size="12.0" />
+                                       </font>
+                                    </TextField>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="39.0" prefWidth="447.0" style="-fx-border-color: #808080;">
+                                 <children>
+                                    <TextField prefHeight="41.0" prefWidth="179.0" style="-fx-background-color: transparent;" text="Best Choice">
+                                       <font>
+                                          <Font name="Cambria" size="12.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField prefHeight="41.0" prefWidth="179.0" style="-fx-background-color: transparent;" text="(4)">
+                                       <font>
+                                          <Font name="Cambria" size="12.0" />
+                                       </font>
+                                    </TextField>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="39.0" prefWidth="447.0" style="-fx-border-color: #808080;">
+                                 <children>
+                                    <TextField prefHeight="41.0" prefWidth="179.0" style="-fx-background-color: transparent;" text="Brunch">
+                                       <font>
+                                          <Font name="Cambria" size="12.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField prefHeight="41.0" prefWidth="179.0" style="-fx-background-color: transparent;" text="(10)">
+                                       <font>
+                                          <Font name="Cambria" size="12.0" />
+                                       </font>
+                                    </TextField>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="39.0" prefWidth="447.0" style="-fx-border-color: #808080;">
+                                 <children>
+                                    <TextField prefHeight="41.0" prefWidth="179.0" style="-fx-background-color: transparent;" text="Coffee">
+                                       <font>
+                                          <Font name="Cambria" size="12.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField prefHeight="41.0" prefWidth="179.0" style="-fx-background-color: transparent;" text="(14)">
+                                       <font>
+                                          <Font name="Cambria" size="12.0" />
+                                       </font>
+                                    </TextField>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="39.0" prefWidth="447.0" style="-fx-border-color: #808080;">
+                                 <children>
+                                    <TextField prefHeight="41.0" prefWidth="179.0" style="-fx-background-color: transparent;" text="Extra">
+                                       <font>
+                                          <Font name="Cambria" size="12.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField prefHeight="41.0" prefWidth="179.0" style="-fx-background-color: transparent;" text="(12)">
+                                       <font>
+                                          <Font name="Cambria" size="12.0" />
+                                       </font>
+                                    </TextField>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="39.0" prefWidth="447.0" style="-fx-border-color: #808080;">
+                                 <children>
+                                    <TextField prefHeight="41.0" prefWidth="179.0" style="-fx-background-color: transparent;" text="Mie Option">
+                                       <font>
+                                          <Font name="Cambria" size="12.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField prefHeight="41.0" prefWidth="179.0" style="-fx-background-color: transparent;" text="(18)">
+                                       <font>
+                                          <Font name="Cambria" size="12.0" />
+                                       </font>
+                                    </TextField>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="39.0" prefWidth="447.0" style="-fx-border-color: #808080;">
+                                 <children>
+                                    <TextField prefHeight="41.0" prefWidth="179.0" style="-fx-background-color: transparent;" text="Lite Bite">
+                                       <font>
+                                          <Font name="Cambria" size="12.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField prefHeight="41.0" prefWidth="179.0" style="-fx-background-color: transparent;" text="(8)">
+                                       <font>
+                                          <Font name="Cambria" size="12.0" />
+                                       </font>
+                                    </TextField>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="39.0" prefWidth="447.0" style="-fx-border-color: #808080;">
+                                 <children>
+                                    <TextField prefHeight="41.0" prefWidth="179.0" style="-fx-background-color: transparent;" text="Mocktail">
+                                       <font>
+                                          <Font name="Cambria" size="12.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField prefHeight="41.0" prefWidth="179.0" style="-fx-background-color: transparent;" text="(19)">
+                                       <font>
+                                          <Font name="Cambria" size="12.0" />
+                                       </font>
+                                    </TextField>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="39.0" prefWidth="447.0" style="-fx-border-color: #808080;">
+                                 <children>
+                                    <TextField prefHeight="41.0" prefWidth="179.0" style="-fx-background-color: transparent;" text="Milkshake">
+                                       <font>
+                                          <Font name="Cambria" size="12.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField prefHeight="41.0" prefWidth="179.0" style="-fx-background-color: transparent;" text="(10)">
+                                       <font>
+                                          <Font name="Cambria" size="12.0" />
+                                       </font>
+                                    </TextField>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="39.0" prefWidth="447.0" style="-fx-border-color: #808080;">
+                                 <children>
+                                    <TextField prefHeight="41.0" prefWidth="179.0" style="-fx-background-color: transparent;" text="Mocktail">
+                                       <font>
+                                          <Font name="Cambria" size="12.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField prefHeight="41.0" prefWidth="179.0" style="-fx-background-color: transparent;" text="(29)">
+                                       <font>
+                                          <Font name="Cambria" size="12.0" />
+                                       </font>
+                                    </TextField>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="39.0" prefWidth="447.0" style="-fx-border-color: #808080;">
+                                 <children>
+                                    <TextField prefHeight="41.0" prefWidth="179.0" style="-fx-background-color: transparent;" text="Mocktail">
+                                       <font>
+                                          <Font name="Cambria" size="12.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField prefHeight="41.0" prefWidth="179.0" style="-fx-background-color: transparent;" text="(29)">
+                                       <font>
+                                          <Font name="Cambria" size="12.0" />
+                                       </font>
+                                    </TextField>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="39.0" prefWidth="447.0" style="-fx-border-color: #808080;">
+                                 <children>
+                                    <TextField prefHeight="41.0" prefWidth="179.0" style="-fx-background-color: transparent;" text="Mocktail">
+                                       <font>
+                                          <Font name="Cambria" size="12.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField prefHeight="41.0" prefWidth="179.0" style="-fx-background-color: transparent;" text="(29)">
+                                       <font>
+                                          <Font name="Cambria" size="12.0" />
+                                       </font>
+                                    </TextField>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="39.0" prefWidth="447.0" style="-fx-border-color: #808080;">
+                                 <children>
+                                    <TextField prefHeight="41.0" prefWidth="179.0" style="-fx-background-color: transparent;" text="Mocktail">
+                                       <font>
+                                          <Font name="Cambria" size="12.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField prefHeight="41.0" prefWidth="179.0" style="-fx-background-color: transparent;" text="(29)">
+                                       <font>
+                                          <Font name="Cambria" size="12.0" />
+                                       </font>
+                                    </TextField>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="449.0" layoutY="35.0" prefHeight="528.0" prefWidth="490.0">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="84.0" prefWidth="482.0" style="-fx-background-color: Transparent;" />
+                        <HBox layoutX="10.0" layoutY="2.0" prefHeight="95.0" prefWidth="480.0" style="-fx-background-radius: 20;">
+                           <children>
+                              <AnchorPane prefHeight="95.0" prefWidth="508.0" style="-fx-background-radius: 20; -fx-background-color: #dddddd;">
+                                 <children>
+                                    <Label layoutX="75.0" layoutY="21.0" text="Onion Ring">
+                                       <font>
+                                          <Font name="Cambria" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="73.0" layoutY="45.0" text="SKU: 175099">
+                                       <font>
+                                          <Font name="Cambria" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="396.0" layoutY="10.0" text="Rp. 12.000" />
+                                    <Button layoutX="5.0" layoutY="-5.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="472.0" style="-fx-background-color: transparan;" />
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </HBox>
+                        <HBox layoutX="9.0" layoutY="101.0" prefHeight="95.0" prefWidth="480.0" style="-fx-background-radius: 20;">
+                           <children>
+                              <AnchorPane prefHeight="95.0" prefWidth="508.0" style="-fx-background-radius: 20; -fx-background-color: #dddddd;">
+                                 <children>
+                                    <Label layoutX="75.0" layoutY="21.0" text="Onion Ring">
+                                       <font>
+                                          <Font name="Cambria" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="73.0" layoutY="45.0" text="SKU: 175099">
+                                       <font>
+                                          <Font name="Cambria" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="396.0" layoutY="10.0" text="Rp. 12.000" />
+                                    <Button layoutX="3.0" layoutY="-6.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="472.0" style="-fx-background-color: transparan;" />
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="199.0" prefHeight="95.0" prefWidth="480.0" style="-fx-background-radius: 20;">
+                           <children>
+                              <AnchorPane prefHeight="95.0" prefWidth="508.0" style="-fx-background-radius: 20; -fx-background-color: #dddddd;">
+                                 <children>
+                                    <Label layoutX="75.0" layoutY="21.0" text="Onion Ring">
+                                       <font>
+                                          <Font name="Cambria" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="73.0" layoutY="45.0" text="SKU: 175099">
+                                       <font>
+                                          <Font name="Cambria" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="396.0" layoutY="10.0" text="Rp. 12.000" />
+                                    <Button layoutX="5.0" layoutY="-13.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="472.0" style="-fx-background-color: transparan;" />
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </HBox>
+                        <AnchorPane layoutX="12.0" layoutY="295.0" prefHeight="95.0" prefWidth="478.0" style="-fx-background-radius: 20; -fx-background-color: #dddddd;">
+                           <children>
+                              <Label layoutX="75.0" layoutY="21.0" text="Onion Ring">
+                                 <font>
+                                    <Font name="Cambria" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="73.0" layoutY="45.0" text="SKU: 175099">
+                                 <font>
+                                    <Font name="Cambria" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="396.0" layoutY="10.0" text="Rp. 12.000" />
+                              <Button layoutX="2.0" layoutY="-6.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="472.0" style="-fx-background-color: transparan;" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="12.0" layoutY="392.0" prefHeight="95.0" prefWidth="478.0" style="-fx-background-radius: 20; -fx-background-color: #dddddd;">
+                           <children>
+                              <Label layoutX="75.0" layoutY="21.0" text="Onion Ring">
+                                 <font>
+                                    <Font name="Cambria" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="73.0" layoutY="45.0" text="SKU: 175099">
+                                 <font>
+                                    <Font name="Cambria" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="396.0" layoutY="10.0" text="Rp. 12.000" />
+                              <Button layoutX="4.0" layoutY="2.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="472.0" style="-fx-background-color: transparan;" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="945.0" layoutY="38.0" prefHeight="531.0" prefWidth="269.0">
+                     <children>
+                        <HBox alignment="CENTER_LEFT" layoutX="1.0" layoutY="2.0" prefHeight="50.0" prefWidth="261.0" style="-fx-background-color: #ebeced; -fx-background-radius: 10;" />
+                        <Label layoutX="10.0" layoutY="18.0" prefHeight="18.0" prefWidth="64.0" text="   Variant">
+                           <font>
+                              <Font name="Cambria" size="14.0" />
+                           </font>
+                        </Label>
+                        <VBox layoutX="1.0" layoutY="50.0" prefHeight="112.0" prefWidth="258.0">
+                           <children>
+                              <TextField alignment="BOTTOM_CENTER" prefHeight="30.0" prefWidth="256.0" style="-fx-background-color: transparent;" text="Onion RIng                                         Rp. 12.000">
+                                 <font>
+                                    <Font name="Cambria" size="12.0" />
+                                 </font>
+                              </TextField>
+                              <Separator prefWidth="200.0" />
+                              <TextField prefHeight="24.0" prefWidth="206.0" promptText="   SKU : 175099" style="-fx-background-color: transparent;">
+                                 <font>
+                                    <Font name="Cambria" size="12.0" />
+                                 </font>
+                              </TextField>
+                              <TextField alignment="BOTTOM_CENTER" prefHeight="30.0" prefWidth="256.0" style="-fx-background-color: transparent;" text="Onion RIng                                         Rp. 12.000">
+                                 <font>
+                                    <Font name="Cambria" size="12.0" />
+                                 </font>
+                              </TextField>
+                              <TextField prefHeight="24.0" prefWidth="206.0" promptText="   SKU : 175099" style="-fx-background-color: transparent;">
+                                 <font>
+                                    <Font name="Cambria" size="12.0" />
+                                 </font>
+                              </TextField>
+                           </children>
+                        </VBox>
+                        <HBox alignment="CENTER_LEFT" layoutX="3.0" layoutY="169.0" prefHeight="50.0" prefWidth="258.0" style="-fx-background-color: #ebeced; -fx-background-radius: 10;">
+                           <children>
+                              <Label prefHeight="18.0" prefWidth="119.0" text="   Cetak Item Label">
+                                 <font>
+                                    <Font name="Cambria" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" layoutX="11.0" layoutY="196.0" prefHeight="70.0" prefWidth="256.0">
+                           <children>
+                              <CheckBox mnemonicParsing="false" text="CheckBox" />
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" layoutX="5.0" layoutY="251.0" prefHeight="50.0" prefWidth="258.0" style="-fx-background-color: #ebeced; -fx-background-radius: 10;">
+                           <children>
+                              <Label prefHeight="18.0" prefWidth="119.0" text="   Cetak Item Label">
+                                 <font>
+                                    <Font name="Cambria" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <CheckBox layoutX="12.0" layoutY="305.0" mnemonicParsing="false" text="Dapur" />
+                        <CheckBox layoutX="12.0" layoutY="331.0" mnemonicParsing="false" text="Bar" />
+                        <Separator layoutX="2.0" layoutY="171.0" prefHeight="0.0" prefWidth="260.0" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

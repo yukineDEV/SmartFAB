@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="645.0" prefWidth="1210.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MultiScene.Scene.History.HistoryController">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <left>
+            <VBox prefHeight="720.0" prefWidth="511.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox prefHeight="53.0" prefWidth="511.0">
+                     <children>
+                        <AnchorPane prefHeight="200.0" prefWidth="255.5">
+                           <children>
+                              <Button layoutX="6.0" layoutY="11.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="246.0" style="-fx-background-color: #588ce3; -fx-background-radius: 20;" text="Button" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="53.0" prefWidth="255.5">
+                           <children>
+                              <Button layoutX="4.0" layoutY="11.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="246.0" style="-fx-background-color: #dea94d; -fx-background-radius: 20;" text="Button">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font></Button>
+                           </children>
+                        </AnchorPane>
+                     </children></HBox>
+                  <HBox alignment="CENTER" prefHeight="64.0" prefWidth="511.0">
+                     <children>
+                        <TextField prefHeight="26.0" prefWidth="494.0" promptText="Cari Order" />
+                        <HBox alignment="CENTER" prefHeight="64.0" prefWidth="406.0">
+                           <children>
+                              <DatePicker prefHeight="26.0" prefWidth="224.0" promptText="2024-06-30" />
+                              <HBox alignment="CENTER" prefHeight="64.0" prefWidth="45.0">
+                                 <children>
+                                    <Label text="To">
+                                       <font>
+                                          <Font name="Cambria" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                              <DatePicker prefHeight="26.0" prefWidth="224.0" promptText="2024-07-01" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="21.0" prefWidth="418.0">
+                     <children>
+                        <Label text="   Status">
+                           <font>
+                              <Font name="Cambria" size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="63.0" prefWidth="418.0">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="122.0">
+                           <children>
+                              <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="108.0" style="-fx-background-color: #3c78dc;" text="Selesai" textFill="#f4f4f4" />
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="122.0">
+                           <children>
+                              <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="108.0" style="-fx-background-color: #3c78dc;" text="Batal" textFill="WHITE" />
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="122.0">
+                           <children>
+                              <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="108.0" style="-fx-background-color: #3c78dc;" text="Aktif" textFill="WHITE" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="40.0" prefWidth="418.0">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="122.0">
+                           <children>
+                              <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="108.0" style="-fx-background-color: #ff2121;" text="Reset Filter" textFill="WHITE" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <Separator prefHeight="20.0" prefWidth="475.0" />
+                  <HBox prefHeight="20.0" prefWidth="418.0">
+                     <children>
+                        <Label text="  Sunday, 30/06/2024">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <AnchorPane prefHeight="110.0" prefWidth="446.0" style="-fx-border-color: #9e9c9c;">
+                     <children>
+                        <BorderPane layoutX="15.200000000000001" layoutY="-13.0" prefHeight="175.0" prefWidth="420.0" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="1.0">
+                           <left>
+                              <VBox prefHeight="168.0" prefWidth="218.0" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <TextField style="-fx-background-color: transperant;" text="NO. ORDER :  380056-9" />
+                                    <TextField style="-fx-background-color: transperant;" text="      Dhandi" />
+                                    <TextField style="-fx-background-color: transperant;" />
+                                    <TextField style="-fx-background-color: transparent;" text="       Selesai" />
+                                 </children>
+                              </VBox>
+                           </left>
+                           <right>
+                              <VBox prefHeight="112.0" prefWidth="199.0" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <TextField alignment="CENTER_RIGHT" style="-fx-background-color: transparent;" text="30/06/2024" />
+                                    <TextField alignment="CENTER_RIGHT" style="-fx-background-color: transparent;" text="22.17" />
+                                    <TextField alignment="CENTER_RIGHT" style="-fx-background-color: transparent;" text="Rp. 29.000" />
+                                    <TextField alignment="CENTER_RIGHT" style="-fx-background-color: transparent;" text="Synced" />
+                                 </children>
+                              </VBox>
+                           </right>
+                        </BorderPane>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="110.0" prefWidth="446.0" style="-fx-border-color: #9e9c9c;">
+                     <children>
+                        <BorderPane layoutX="15.200000000000001" layoutY="-13.0" prefHeight="175.0" prefWidth="420.0" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="1.0">
+                           <left>
+                              <VBox prefHeight="168.0" prefWidth="218.0" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <TextField style="-fx-background-color: transperant;" text="NO. ORDER :  457892-9" />
+                                    <TextField style="-fx-background-color: transperant;" text="      Bima" />
+                                    <TextField style="-fx-background-color: transperant;" />
+                                    <TextField style="-fx-background-color: transparent;" text="       Selesai" />
+                                 </children>
+                              </VBox>
+                           </left>
+                           <right>
+                              <VBox prefHeight="112.0" prefWidth="199.0" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <TextField alignment="CENTER_RIGHT" style="-fx-background-color: transparent;" text="29/06/2024" />
+                                    <TextField alignment="CENTER_RIGHT" style="-fx-background-color: transparent;" text="22.00" />
+                                    <TextField alignment="CENTER_RIGHT" style="-fx-background-color: transparent;" text="Rp. 35.000" />
+                                    <TextField alignment="CENTER_RIGHT" style="-fx-background-color: transparent;" text="Synced" />
+                                 </children>
+                              </VBox>
+                           </right>
+                        </BorderPane>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="110.0" prefWidth="446.0" style="-fx-border-color: #9e9c9c;">
+                     <children>
+                        <BorderPane layoutX="15.200000000000001" layoutY="-13.0" prefHeight="175.0" prefWidth="420.0" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="1.0">
+                           <left>
+                              <VBox prefHeight="168.0" prefWidth="218.0" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <TextField style="-fx-background-color: transperant;" text="NO. ORDER :  534262-9" />
+                                    <TextField style="-fx-background-color: transperant;" text="      Adhi" />
+                                    <TextField style="-fx-background-color: transperant;" />
+                                    <TextField style="-fx-background-color: transparent;" text="      Selesai" />
+                                 </children>
+                              </VBox>
+                           </left>
+                           <right>
+                              <VBox prefHeight="112.0" prefWidth="199.0" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <TextField alignment="CENTER_RIGHT" style="-fx-background-color: transparent;" text="28/06/2024" />
+                                    <TextField alignment="CENTER_RIGHT" style="-fx-background-color: transparent;" text="22.30" />
+                                    <TextField alignment="CENTER_RIGHT" style="-fx-background-color: transparent;" text="Rp. 59.000" />
+                                    <TextField alignment="CENTER_RIGHT" style="-fx-background-color: transparent;" text="Synced" />
+                                 </children>
+                              </VBox>
+                           </right>
+                        </BorderPane>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+         </left>
+         <right>
+            <VBox prefHeight="646.0" prefWidth="709.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ScrollPane prefHeight="654.0" prefWidth="710.0">
+                     <content>
+                        <AnchorPane prefHeight="746.0" prefWidth="776.0" style="-fx-background-color: #ffffff;">
+                           <children>
+                              <Separator layoutX="-4.0" layoutY="63.0" prefHeight="11.0" prefWidth="765.0" />
+                              <HBox layoutY="69.0" prefHeight="266.0" prefWidth="695.0">
+                                 <children>
+                                    <VBox prefHeight="266.0" prefWidth="437.0">
+                                       <children>
+                                          <TextField prefHeight="41.0" prefWidth="194.0" style="-fx-background-color: transparent;" text="Tgl Order        : 30/06/2024 19.10">
+                                             <font>
+                                                <Font name="Cambria" size="16.0" />
+                                             </font>
+                                          </TextField>
+                                          <TextField prefHeight="41.0" prefWidth="194.0" style="-fx-background-color: transparent;" text="Tgl Closing      : 30/06/2024 22.17">
+                                             <font>
+                                                <Font name="Cambria" size="16.0" />
+                                             </font>
+                                          </TextField>
+                                          <TextField prefHeight="41.0" prefWidth="194.0" style="-fx-background-color: transparent;" text="No. Antrian      : 10">
+                                             <font>
+                                                <Font name="Cambria" size="16.0" />
+                                             </font>
+                                          </TextField>
+                                          <TextField prefHeight="41.0" prefWidth="194.0" style="-fx-background-color: transparent;" text="Server                : -">
+                                             <font>
+                                                <Font name="Cambria" size="16.0" />
+                                             </font>
+                                          </TextField>
+                                          <TextField prefHeight="42.0" prefWidth="193.0" style="-fx-background-color: transparent;" text="Kasir                  : -">
+                                             <font>
+                                                <Font name="Cambria" size="16.0" />
+                                             </font>
+                                          </TextField>
+                                       </children>
+                                    </VBox>
+                                    <VBox prefHeight="266.0" prefWidth="273.0">
+                                       <children>
+                                          <TextField prefHeight="41.0" prefWidth="194.0" style="-fx-background-color: transparent;" text="Pelanggan       : Dhandi">
+                                             <font>
+                                                <Font name="Cambria" size="16.0" />
+                                             </font>
+                                          </TextField>
+                                          <TextField prefHeight="41.0" prefWidth="194.0" style="-fx-background-color: transparent;" text="Email                : -">
+                                             <font>
+                                                <Font name="Cambria" size="16.0" />
+                                             </font>
+                                          </TextField>
+                                          <TextField prefHeight="41.0" prefWidth="194.0" style="-fx-background-color: transparent;" text="Telp                  : -">
+                                             <font>
+                                                <Font name="Cambria" size="16.0" />
+                                             </font>
+                                          </TextField>
+                                          <TextField prefHeight="41.0" prefWidth="194.0" style="-fx-background-color: transparent;" text="Sales Type      : Normal">
+                                             <font>
+                                                <Font name="Cambria" size="16.0" />
+                                             </font>
+                                          </TextField>
+                                          <TextField prefHeight="41.0" prefWidth="194.0" style="-fx-background-color: transparent;" text="Meja                 : -">
+                                             <font>
+                                                <Font name="Cambria" size="16.0" />
+                                             </font>
+                                          </TextField>
+                                          <TextField prefHeight="41.0" prefWidth="194.0" style="-fx-background-color: transparent;" text="Pax/Guest       :  1">
+                                             <font>
+                                                <Font name="Cambria" size="16.0" />
+                                             </font>
+                                          </TextField>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                              <Separator layoutX="-3.0" layoutY="327.0" prefHeight="14.0" prefWidth="702.0" />
+                              <HBox layoutX="-3.0" layoutY="338.0" prefHeight="88.0" prefWidth="695.0">
+                                 <children>
+                                    <VBox prefHeight="88.0" prefWidth="172.0">
+                                       <children>
+                                          <TextField prefHeight="44.0" prefWidth="166.0" style="-fx-background-color: transparent;" text="x1">
+                                             <font>
+                                                <Font name="Cambria" size="16.0" />
+                                             </font>
+                                          </TextField>
+                                          <TextField prefHeight="44.0" prefWidth="166.0" style="-fx-background-color: transparent;" text="x1">
+                                             <font>
+                                                <Font name="Cambria" size="16.0" />
+                                             </font>
+                                          </TextField>
+                                       </children>
+                                    </VBox>
+                                    <VBox prefHeight="88.0" prefWidth="402.0">
+                                       <children>
+                                          <TextField prefHeight="44.0" prefWidth="166.0" style="-fx-background-color: transparent;" text="Nasi Goreng Sosis">
+                                             <font>
+                                                <Font name="Cambria" size="16.0" />
+                                             </font>
+                                          </TextField>
+                                          <TextField prefHeight="44.0" prefWidth="166.0" style="-fx-background-color: transparent;" text="LemonTea">
+                                             <font>
+                                                <Font name="Cambria" size="16.0" />
+                                             </font>
+                                          </TextField>
+                                       </children>
+                                    </VBox>
+                                    <VBox prefHeight="88.0" prefWidth="190.0">
+                                       <children>
+                                          <TextField alignment="CENTER_RIGHT" prefHeight="44.0" prefWidth="166.0" style="-fx-background-color: transparent;" text="Rp. 18.000">
+                                             <font>
+                                                <Font name="Cambria" size="16.0" />
+                                             </font>
+                                          </TextField>
+                                          <TextField alignment="CENTER_RIGHT" prefHeight="44.0" prefWidth="166.0" style="-fx-background-color: transparent;" text="Rp. 10.000">
+                                             <font>
+                                                <Font name="Cambria" size="16.0" />
+                                             </font>
+                                          </TextField>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                              <Separator layoutX="1.0" layoutY="418.0" prefHeight="14.0" prefWidth="697.0" />
+                              <Label layoutX="8.0" layoutY="432.0" text="Pembayaran">
+                                 <font>
+                                    <Font name="Cambria Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <HBox layoutX="-1.0" layoutY="452.0" prefHeight="214.0" prefWidth="367.0">
+                                 <children>
+                                    <VBox prefHeight="214.0" prefWidth="150.0">
+                                       <children>
+                                          <TextField prefHeight="44.0" prefWidth="166.0" style="-fx-background-color: transparent;" text="Q-Ris">
+                                             <font>
+                                                <Font name="Cambria" size="16.0" />
+                                             </font>
+                                          </TextField>
+                                          <TextField prefHeight="15.0" prefWidth="114.0" style="-fx-background-color: transparent;" text="Total Bayar">
+                                             <font>
+                                                <Font name="Cambria" size="16.0" />
+                                             </font>
+                                          </TextField>
+                                          <TextField prefHeight="14.0" prefWidth="114.0" style="-fx-background-color: transparent;" text="Kembalian">
+                                             <font>
+                                                <Font name="Cambria" size="16.0" />
+                                             </font>
+                                          </TextField>
+                                       </children>
+                                    </VBox>
+                                    <VBox prefHeight="214.0" prefWidth="161.0">
+                                       <children>
+                                          <TextField prefHeight="44.0" prefWidth="166.0" style="-fx-background-color: transparent;" text="Rp. 29.000">
+                                             <font>
+                                                <Font name="Cambria" size="16.0" />
+                                             </font>
+                                          </TextField>
+                                          <TextField prefHeight="15.0" prefWidth="114.0" style="-fx-background-color: transparent;" text="Rp. 29.000">
+                                             <font>
+                                                <Font name="Cambria" size="16.0" />
+                                             </font>
+                                          </TextField>
+                                          <TextField prefHeight="14.0" prefWidth="114.0" style="-fx-background-color: transparent;" text="Rp.0">
+                                             <font>
+                                                <Font name="Cambria" size="16.0" />
+                                             </font>
+                                          </TextField>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                              <VBox layoutX="435.0" layoutY="442.0" prefHeight="222.0" prefWidth="149.0">
+                                 <children>
+                                    <TextField prefHeight="14.0" prefWidth="150.0" style="-fx-background-color: transparent;" text="Subtotal  ">
+                                       <font>
+                                          <Font name="Cambria" size="16.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField prefHeight="44.0" prefWidth="166.0" style="-fx-background-color: transparent;" text="Diskon">
+                                       <font>
+                                          <Font name="Cambria" size="16.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField prefHeight="44.0" prefWidth="166.0" style="-fx-background-color: transparent;" text="Svc Charge">
+                                       <font>
+                                          <Font name="Cambria" size="16.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField prefHeight="44.0" prefWidth="166.0" style="-fx-background-color: transparent;" text="Pajak">
+                                       <font>
+                                          <Font name="Cambria" size="16.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField prefHeight="44.0" prefWidth="166.0" style="-fx-background-color: transparent;" text="Adjusment">
+                                       <font>
+                                          <Font name="Cambria" size="16.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField prefHeight="44.0" prefWidth="166.0" style="-fx-background-color: transparent;" text="Total (2 items)">
+                                       <font>
+                                          <Font name="Cambria" size="16.0" />
+                                       </font>
+                                    </TextField>
+                                 </children>
+                              </VBox>
+                              <VBox layoutX="564.0" layoutY="432.0" prefHeight="222.0" prefWidth="121.0">
+                                 <children>
+                                    <TextField alignment="CENTER_RIGHT" prefHeight="44.0" prefWidth="166.0" style="-fx-background-color: transparent;" text="Rp. 29.000">
+                                       <font>
+                                          <Font name="Cambria" size="16.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField alignment="CENTER_RIGHT" prefHeight="44.0" prefWidth="166.0" style="-fx-background-color: transparent;" text="Rp. 0">
+                                       <font>
+                                          <Font name="Cambria" size="16.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField alignment="CENTER_RIGHT" prefHeight="44.0" prefWidth="166.0" style="-fx-background-color: transparent;" text="Rp. 0">
+                                       <font>
+                                          <Font name="Cambria" size="16.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField alignment="CENTER_RIGHT" prefHeight="44.0" prefWidth="166.0" style="-fx-background-color: transparent;" text="Rp. 0">
+                                       <font>
+                                          <Font name="Cambria" size="16.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField alignment="CENTER_RIGHT" prefHeight="44.0" prefWidth="166.0" style="-fx-background-color: transparent;" text="Rp. 0">
+                                       <font>
+                                          <Font name="Cambria" size="16.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField alignment="CENTER_RIGHT" prefHeight="44.0" prefWidth="166.0" style="-fx-background-color: transparent;" text="Rp. 29.000">
+                                       <font>
+                                          <Font name="Cambria" size="17.0" />
+                                       </font>
+                                    </TextField>
+                                 </children>
+                              </VBox>
+                              <Button layoutX="274.0" layoutY="662.0" mnemonicParsing="false" style="-fx-background-color: Transparent;" text="Show History">
+                                 <font>
+                                    <Font name="Cambria" size="14.0" />
+                                 </font>
+                              </Button>
+                              <Button layoutX="585.0" layoutY="15.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="94.0" style="-fx-background-color: #3c87dc;" text="Sync" textFill="WHITE" />
+                              <Button layoutX="476.0" layoutY="15.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="94.0" style="-fx-background-color: #ff2121;" text="Batalkan" textFill="WHITE" />
+                              <HBox layoutX="5.0" layoutY="-4.0" prefHeight="42.0" prefWidth="414.0">
+                                 <children>
+                                    <VBox prefHeight="66.0" prefWidth="222.0">
+                                       <children>
+                                          <TextField prefHeight="23.0" prefWidth="222.0" style="-fx-background-color: transparent;" text="#380056-9">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </TextField>
+                                          <TextField style="-fx-background-color: transparent;" text=" Selesai       Synced">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </TextField>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </ScrollPane>
+               </children>
+            </VBox>
+         </right>
+      </BorderPane>
+   </children>
+</AnchorPane>
