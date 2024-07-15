@@ -45,6 +45,7 @@ public class POSController implements Initializable {
   private Parent root;
   private Scene scene;
 
+  // bagian bagian navigasi
   @FXML
   public void POSButton(ActionEvent event) throws IOException {
     root = FXMLLoader.load(getClass().getResource("POSScene.fxml"));
@@ -98,7 +99,7 @@ public class POSController implements Initializable {
     TableView.setItems(dataMenu);
   }
 
-  // Featur
+  // buttton button yang ada di POS
   @FXML
   private void OrderButton(ActionEvent event) {
     Pane page = openScene.getPane("./Scene/POS/Feature/Order/OrderScene.fxml");
