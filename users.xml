@@ -2,4 +2,5 @@
 <user><name>bima</name><username>KEIzoyars</username><password>blablabla</password></user>
 <user><name>kevin</name><username>adekjelek</username><password>waduh</password></user>
 <user><name>kevin</name><username>adekjelek</username><password>waduh</password></user>
-<user><name>asep</name><username>asep</username><password>12345</password></user><user><name>bima</name><username>asep</username><password>1234</password></user></users>
+<user><name>asep</name><username>asep</username><password>12345</password></user>
+<user><name>bima</name><username>asep</username><password>1234</password></user></users>
